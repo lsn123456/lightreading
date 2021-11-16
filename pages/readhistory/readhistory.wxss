@@ -4,7 +4,6 @@ page {
 .container .noBooks {
   text-align: center;
   margin-top: 100rpx;
-  border: none;
 }
 .container .bookrackContainer van-action-sheet {
   background-color: red!important;
@@ -20,6 +19,7 @@ page {
   border-bottom: 1px solid #f5f1f1;
 }
 .container .bookrackContainer .titleview .titleTag {
+  flex: 1;
   font-size: 20px;
   line-height: 60rpx;
   border-bottom: 2px solid #d5a3c9;
@@ -30,6 +30,7 @@ page {
 }
 .container .bookrackContainer .titleview .go {
   line-height: 60rpx;
+  flex: 4;
   text-align: right;
   color: #d96ae0;
   font-weight: 500;
@@ -60,6 +61,6 @@ page {
   background-color: #d5a3c9;
   border-radius: 5px;
 }
-.disnone{
-  display:none;
+.container .bookrackContainer van-cell-group van-cell .labelview .readtime {
+  width: 400rpx;
 }
